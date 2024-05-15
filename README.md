@@ -1,3 +1,6 @@
+
+**AKIŞ**
+
 1) Kullanıcı Kaydı:
    
 İstemci kullanıcı adı ve parola ile bir POST isteği gönderir.
