@@ -108,8 +108,23 @@ Proje bağımlılıkları pom.xml dosyasında şu şekilde tanımlanmıştır:
 ```
 **PROJE KURULUMU**
 
+1) Projeyi klonlayın. Bunun için 'git clone' komutunu ve projeye ait HTTP adresini kullanmanız yeterli olacaktır:
 
+```bash
+ 	git clone https://github.com/zeyhznc/Online-Book-Management-System.git
+```
 
+2) Proje dizinine gidin:
+
+```bash
+ 	cd projenin_kurulu_oldugu_dizin
+```
+
+ve uygulamayı başlatmak için şu komutu çalıştırın:
+
+```bash
+ 	mvn spring-boot:run
+```
 
 **AKIŞ**
 
