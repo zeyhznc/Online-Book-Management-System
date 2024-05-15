@@ -42,13 +42,14 @@
 
 Kullanıcıya ait bilgiler:
 
-{
+  {
+   
+    "email":  "zeynephazneci_3@gmail.com",
+    
+    "password": "password123456"
+    
+  }
 
-  "email":  "zeynephazneci_3@gmail.com",
-  
-  "password": "password123456"
-  
-}
 
 Sunucu , kullanıcı bilgiilerini veritabanında depolanan verilerle karşılaştırır. Az önce veritabanına kaydedilen kullanıcı bilgileri ile bu POST isteğinde gönderdiğimiz bilgiler tutarlı olduğu için, response olarak JWT belirteci döner.
 
