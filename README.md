@@ -40,6 +40,16 @@
 
 ![auth_POST](https://github.com/zeyhznc/Online-Book-Management-System/assets/68854214/af99eec1-3a80-470a-a30b-f51461c3b0db)
 
+Kullanıcıya ait bilgiler:
+
+{
+
+  "email":  "zeynephazneci_3@gmail.com",
+  
+  "password": "password123456"
+  
+}
+
 Sunucu , kullanıcı bilgiilerini veritabanında depolanan verilerle karşılaştırır. Az önce veritabanına kaydedilen kullanıcı bilgileri ile bu POST isteğinde gönderdiğimiz bilgiler tutarlı olduğu için, response olarak JWT belirteci döner.
 
 
