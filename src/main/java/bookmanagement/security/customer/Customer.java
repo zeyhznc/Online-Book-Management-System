@@ -8,7 +8,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import bookmanagement.security.book.Book;
-import bookmanagement.security.cart.Cart;
 import bookmanagement.security.token.Token;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -46,9 +45,6 @@ public class Customer implements UserDetails{
 	@OneToMany(mappedBy = "customer")
 	private List<Token> tokens;
 	
-	private List<Book> cart;
-	
-
 	
 	@Enumerated(EnumType.STRING)
 	private Role role;
@@ -88,9 +84,6 @@ public class Customer implements UserDetails{
 		return pswd;
 	}
 
-	public List<Book> getCart() {
-		return cart;
-	}
 	
 	
 	

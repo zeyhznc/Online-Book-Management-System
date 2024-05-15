@@ -14,7 +14,7 @@ import static bookmanagement.security.customer.Role.MANAGER;
 
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
-@EnableJpaRepositories	//?
+@EnableJpaRepositories	
 public class Main {
 
 	public static void main(String[] args) {
